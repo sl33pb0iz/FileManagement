@@ -1,0 +1,21 @@
+<!-- res/layout/dialog_create_file.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên file" />
+
+    <EditText
+        android:id="@+id/edtFileContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nội dung file" />
+
+</LinearLayout>
